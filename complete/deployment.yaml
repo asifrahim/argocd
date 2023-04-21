@@ -31,4 +31,4 @@ spec:
           image: hello-world-test
           imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 8083
+            - containerPort: 8080
