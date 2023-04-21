@@ -6,7 +6,7 @@ spec:
   selector:
     app: spring-test-app
   ports:
-    - port: 8080
+    - port: 8083
       protocol: "TCP"
       targetPort: 8081
   type: LoadBalancer
@@ -31,4 +31,4 @@ spec:
           image: hello-world-test
           imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 8080
+            - containerPort: 8083
