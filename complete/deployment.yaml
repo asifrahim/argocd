@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: spring-test-app
-          image: hello-world-test
+          image: spring-argo-test
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8085
